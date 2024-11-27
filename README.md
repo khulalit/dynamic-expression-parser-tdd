@@ -34,3 +34,10 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## About project
+
+This evaluate expression, for this it uses class ExpressionEvaluator.
+The ExpressionEvaluator class takes a string-based mathematical expression, splits it into parts using delimiters (like ,, \n, or a custom one), validates the tokens to ensure they are positive numbers, and calculates the sum of those numbers. It throws errors for invalid tokens, negative numbers, or malformed input, making it a straightforward and robust tool for evaluating basic addition expressions.
+
+There are test cases for this evaluation both unit and integration with UI as well.
